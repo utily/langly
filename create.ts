@@ -12,11 +12,10 @@ export function create(translations: Translations | Translation, language?: isol
 		const translation = translations as Translation
 		result = (message: string, ...argument: any[]) => {
 			let r = translation[message]
-			if (!r)
-				r = fallback(message, argument)
-			else if (typeof(r) != "string")
-				r = r(...argument)
-			return r
+			return !r ? fallback(message, argument) :
+				typeof(r) != "string" ? r(...argument) :
+				argument.length > 0 ? fallback(r, argument) :
+				r
 		}
 	} else {
 		if (!isoly.Language.is(language))
