@@ -11,10 +11,10 @@ export function create(translations: Translations | Translation, language?: isol
 	if (!language) {
 		const translation = translations as Translation
 		result = (message: string, ...argument: any[]) => {
-			let r = translation[message]
-			return !r ? fallback(message, argument) :
+			const r = translation[message]
+			return !r ? fallback(message, ...argument) :
 				typeof(r) != "string" ? r(...argument) :
-				argument.length > 0 ? fallback(r, argument) :
+				argument.length > 0 ? fallback(r, ...argument) :
 				r
 		}
 	} else {
@@ -26,5 +26,5 @@ export function create(translations: Translations | Translation, language?: isol
 	return result
 }
 function fallback(message: string, ...argument: any[]): string {
-	return argument.length > 0 ? argument.reduce((r, a, i) => r.replace("$" + i, a), message) : message
+	return argument.length > 0 ? argument.reduce<string>((r, a, i) => r.replace("$" + i, a), message) : message
 }
