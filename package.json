@@ -3,6 +3,14 @@
  "version": "0.0.3",
  "description": "Tiny language and localization library.",
  "author": "PayFunc",
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/payfunc/langly"
+ },
+ "bugs": {
+  "url": "https://github.com/payfunc/langly/issues"
+ },
+ "homepage": "https://payfunc.com/open-source/langly",
  "license": "MIT",
  "private": false,
  "main": "dist/index.js",
