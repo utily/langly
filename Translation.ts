@@ -1,3 +1,3 @@
 export interface Translation {
-	[ message: string ]: string | ((...argument: string[]) => string),
+	[ message: string ]: string | any | ((...argument: string[]) => string | any),
 }

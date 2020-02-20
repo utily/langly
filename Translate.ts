@@ -1,1 +1,1 @@
-export type Translate = (message: string, ...argument: any[]) => string
+export type Translate = (message: string, ...argument: any[]) => string | any
