@@ -4,7 +4,7 @@ describe("langly", () => {
 	const translations: langly.Translations = {
 		en: {
 			simple: "A simple message.",
-			interpolated: (data: string) => `An interpolated string containing "${ data }".`,
+			interpolated: (data: string) => `An interpolated string containing "${data}".`,
 			interpolatedAuto: "An auto interpolated string containing $0.",
 			interpolatedMulti: "Auto interpolated string containing both $0 and $1.",
 			alternative: ["A simple message", "in", "an array."],

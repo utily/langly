@@ -4,10 +4,4 @@ import { Translate } from "./Translate"
 import { Translation } from "./Translation"
 import { Translations } from "./Translations"
 
-export {
-	getLanguage,
-	create,
-	Translate,
-	Translation,
-	Translations,
-}
+export { getLanguage, create, Translate, Translation, Translations }
