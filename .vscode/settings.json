@@ -18,5 +18,7 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true,
 		"eslint.autoFixOnSave": true,
-	}
+	},
+	"javascript.format.enable": false,
+	"typescript.format.enable": false
 }
