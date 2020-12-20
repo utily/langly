@@ -1,8 +1,8 @@
 import * as isoly from "isoly"
+import { getLanguage } from "./getLanguage"
+import { Translate } from "./Translate"
 import { Translation } from "./Translation"
 import { Translations } from "./Translations"
-import { Translate } from "./Translate"
-import { getLanguage } from "./getLanguage"
 
 export function create(translations: Translations, language: isoly.Language | HTMLElement): Translate
 export function create(translation: Translation): Translate
