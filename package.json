@@ -1,6 +1,6 @@
 {
 	"name": "langly",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"description": "Tiny language and localization library.",
 	"author": "PayFunc",
 	"repository": {
