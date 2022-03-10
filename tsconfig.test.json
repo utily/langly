@@ -1,9 +1,12 @@
 {
 	"compilerOptions": {
-		"target": "es6",
+		"target": "es2019",
 		"module": "commonjs",
 		"noImplicitAny": true,
 		"removeComments": true,
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
 		"preserveConstEnums": true,
 		"forceConsistentCasingInFileNames": true,
 		"noImplicitThis": true,
@@ -14,12 +17,12 @@
 		"resolveJsonModule": true,
 		"plugins": [
 			{
-			"name": "typescript-tslint-plugin",
-			"alwaysShowRuleFailuresAsWarnings": false,
-			"ignoreDefinitionFiles": true,
-			"configFile": "tslint.json",
-			"suppressWhileTypeErrorsPresent": false,
-			"mockTypeScriptVersion": false
+				"name": "typescript-tslint-plugin",
+				"alwaysShowRuleFailuresAsWarnings": false,
+				"ignoreDefinitionFiles": true,
+				"configFile": "tslint.json",
+				"suppressWhileTypeErrorsPresent": false,
+				"mockTypeScriptVersion": false
 			}
 		]
 	},

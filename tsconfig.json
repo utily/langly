@@ -1,6 +1,8 @@
 {
 	"extends": "./tsconfig.test.json",
 	"compilerOptions": {
+		"target": "es2019",
+		"module": "es6",
 		"declaration": true,
 		"sourceMap": true,
 		"sourceRoot": "../",
