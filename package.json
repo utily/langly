@@ -2,7 +2,7 @@
   "name": "langly",
   "version": "0.0.14",
   "description": "Tiny language and localization library.",
-  "author": "PayFunc",
+  "author": "Utily Contributors",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/payfunc/langly"
