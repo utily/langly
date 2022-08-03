@@ -1,8 +1,8 @@
 {
   "name": "langly",
-  "version": "0.1.2",
+  "version": "2.0.0",
   "description": "Tiny language and localization library.",
-  "author": "PayFunc",
+  "author": "Utily Contributors",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/payfunc/langly"
@@ -57,7 +57,7 @@
     "clean": "rm -rf dist node_modules coverage"
   },
   "dependencies": {
-    "isoly": "2.0.3"
+    "isoly": "2.0.4"
   },
   "devDependencies": {
     "@types/jest": "^27",
