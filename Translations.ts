@@ -42,6 +42,8 @@ export interface Translations {
 	readonly nl?: Translation
 	readonly dz?: Translation
 	readonly en?: Translation
+	readonly en_GB?: Translation
+	readonly en_US?: Translation
 	readonly eo?: Translation
 	readonly et?: Translation
 	readonly ee?: Translation
