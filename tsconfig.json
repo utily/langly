@@ -6,7 +6,7 @@
 		"declaration": true,
 		"sourceMap": true,
 		"sourceRoot": "../",
-		"outDir": "dist"
+		"outDir": "dist/mjs"
 	},
 	"files": [
 		"index.ts"
