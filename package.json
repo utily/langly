@@ -1,11 +1,11 @@
 {
 	"name": "langly",
-	"version": "2.0.9",
+	"version": "2.0.10",
 	"description": "Tiny language and localization library.",
 	"author": "Utily Contributors",
 	"license": "MIT",
 	"private": false,
-	"repository":  "https://github.com/payfunc/langly",
+	"repository": "https://github.com/payfunc/langly",
 	"bugs": {
 		"url": "https://github.com/payfunc/langly/issues"
 	},
