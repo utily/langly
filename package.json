@@ -5,11 +5,14 @@
 	"author": "Utily Contributors",
 	"license": "MIT",
 	"private": false,
-	"repository": "https://github.com/payfunc/langly",
-	"bugs": {
-		"url": "https://github.com/payfunc/langly/issues"
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/utily/langly"
 	},
-	"homepage": "https://payfunc.com/open-source/langly",
+	"bugs": {
+		"url": "https://github.com/utily/langly/issues"
+	},
+	"homepage": "https://github.com/utily/langly",
 	"type": "module",
 	"module": "./dist/mjs/index.js",
 	"types": "./dist/types/index.d.ts",
